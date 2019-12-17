@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Fim configurações gerais*/
+
+
+/*Definição de cores*/
+
+:root {
+    --cinza: #808285;
+    --cinza_texto: #4f4e4e;
+    --verde: #11AA58;
+    --vermelho: #ED312F;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --home-banner: #5a155a;
+    --cor_input: #000000;
+    --botão-hover: #f489bc;
+    --cinza_sombra: #E6E6E6;
+}
+
+
+/*Fim definição de cores*/
+
+
+/* COMEÇO WEB - CRIAR EVENTO 3 */
+
+.conteudo-criar-evento-3 {
+    /* background: lightblue; */
+    height: 73vh;
+    margin: auto;
+    width: 60vw;
+}
+
+.banner-criar-evento-3 {
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(37, 1, 38, 0.45), rgba(37, 1, 38, 0.45)), url(../imagens/Banner-Criar-Evento.jpg);
+    display: flex;
+    height: 35vh;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.dh1-sub5 {
+    align-items: center;
+    /* background: brown; */
+    display: flex;
+    margin: 3.5em 0;
+    justify-content: center;
+    width: 60vw;
+}
+
+.h1-sub5 {
+    /* background: coral; */
+    color: var(--preto);
+    font-size: 2.5em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.lugar-sub5 {
+    /* background: violet; */
+    display: flex;
+    height: 45vh;
+    justify-content: space-between;
+    /* margin: auto; */
+    width: 60vw;
+}
+
+.lugar1 {
+    /* background: red; */
+    width: 28vw;
+}
+
+.lugar2 {
+    /* background: blue; */
+    width: 28vw;
+}
+
+.lugar1 img {
+    height: 45vh;
+    width: 28vw;
+}
+
+.lugar2 img {
+    height: 45vh;
+    width: 28vw;
+}
+
+.lugar1:hover {
+    box-shadow: 0.20em 0.20em 0.50em #CCC;
+}
+
+.lugar2:hover {
+    box-shadow: 0.20em 0.20em 0.50em #CCC;
+}
+
+
+/* FIM WEB - CRIAR EVENTO 3 */
+
+
+/* COMEÇO TABELT - CRIAR EVENTO 3 */
+
+@media screen and (max-width: 768px) {
+    .conteudo-criar-evento-3 {
+        /* background: lightblue; */
+        height: 62vh;
+        width: 80vw;
+    }
+    .dh1-sub5 {
+        /* background: brown; */
+        margin: 2.20em 0;
+        width: 80vw;
+    }
+    .lugar-sub5 {
+        /* background: violet; */
+        height: 37vh;
+        width: 80vw;
+    }
+    .lugar1 {
+        /* background: red; */
+        height: 37vh;
+        margin-bottom: 2em;
+        width: 38vw;
+    }
+    .lugar2 {
+        /* background: blue; */
+        height: 37vh;
+        width: 38vw;
+    }
+    .lugar1 img {
+        height: 37vh;
+        width: 38vw;
+    }
+    .lugar2 img {
+        height: 37vh;
+        width: 38vw;
+    }
+    .lugar1:hover {
+        box-shadow: none;
+    }
+    .lugar2:hover {
+        box-shadow: none;
+    }
+}
+
+
+/* FIM TABLET - CRIAR EVENTO 3 */
+
+
+/* COMEÇO MOBILE - CRIAR EVENTO 3 */
+
+@media screen and (max-width: 375px) {
+    .conteudo-criar-evento-3 {
+        /* background: lightblue; */
+        height: 105vh;
+        width: 80vw;
+    }
+    .menu-cabecalho-padrao ul {
+        align-items: center;
+        /* background: greenyellow; */
+        display: flex;
+        flex-wrap: wrap;
+        height: 7vh;
+        justify-content: center;
+        width: 25vw;
+    }
+    .menu {
+        align-items: center;
+        /* background: red; */
+        display: flex;
+        flex-wrap: wrap;
+        height: 15vh;
+        justify-content: flex-end;
+        width: 40vw;
+        margin-right: 1em;
+    }
+    .dh1-sub5 {
+        /* background: brown; */
+        margin: 2em 0;
+        width: 80vw;
+    }
+    .h1-sub5 {
+        /* background: coral; */
+        font-size: 1.80em;
+    }
+    .lugar-sub5 {
+        /* background: violet; */
+        display: block;
+        height: 70vh;
+        width: 80vw;
+    }
+    .lugar1 {
+        /* background: red; */
+        height: 39vh;
+        margin-bottom: 2em;
+        width: 80vw;
+    }
+    .lugar2 {
+        /* background: blue; */
+        height: 39vh;
+        width: 80vw;
+    }
+    .lugar1 img {
+        height: 39vh;
+        width: 80vw;
+    }
+    .lugar2 img {
+        height: 39vh;
+        width: 80vw;
+    }
+    .lugar1:hover {
+        box-shadow: none;
+    }
+    .lugar2:hover {
+        box-shadow: none;
+    }
+}
+
+
+/* FIM MOBILE - CRIAR EVENTO 3 */

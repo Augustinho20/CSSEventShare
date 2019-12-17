@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Fim configurações gerais*/
+
+
+/*Definição de cores*/
+
+
+:root {
+    --cinza: #808285;
+    --verde: #11AA58;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza_sombra: #E6E6E6;
+}
+
+
+/*Fim definição de cores*/
+
+
+/* COMEÇO WEB - CRIAR EVENTO 5 */
+
+.conteudo-res1 {
+    /* background: lightblue; */
+    height: 140vh;
+    margin: auto;
+    padding: 3em 0;
+    width: 60vw;
+    /* background: #11AA58; */
+}
+
+.container-criarevento5{
+        align-items: center;
+        /* background: darkgoldenrod; */
+        display: flex;
+        /* height: 120vw; */
+        justify-content: center;
+        flex-direction: column;
+}
+
+.banner_res1 {
+    align-items: center;
+    /* background: #11AA58; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(37, 1, 38, 0.45), rgba(37, 1, 38, 0.45)), url(../imagens/Banner-Criar-Evento.jpg);
+    display: flex;
+    height: 35vh;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.titulo-res1 h1 {
+    /* background: lightcoral; */
+    color: var(--preto);
+    font-size: 2.5em;
+    font-weight: 700;
+    height: 9.3vh;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container-res1 {
+    /* background: yellow; */
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+}
+
+.esquerdo-res1 {
+    /* background: blueviolet; */
+    width: 30vw;
+    padding: 20px;
+}
+
+.esquerdo-res1 h2 {
+    /* background: blue; */
+    text-transform: uppercase;
+    font-weight: 580;
+    font-size: 1.50em;
+}
+
+.box-res1 h3 {
+    /* background: yellowgreen; */
+    font-size: 1.1em;
+    font-weight: 580;
+}
+
+.box-res1 p {
+    /* background: yellow; */
+    font-size: 0.99em;
+    font-weight: lighter;
+}
+
+.box-res1 {
+    margin: 20px 0;
+}
+
+.direito-res1 {
+    /* background: #EF5BA1; */
+    width: 30vw;
+    padding: 20px;
+}
+
+.direito-res1 h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.50em;
+}
+
+.botão_res1 {
+    align-items: center;
+    display: flex;
+    height: 12vh;
+    justify-content: center;
+    width: 100%;
+    /* background: #3CBACE; */
+}
+
+.botão_res1 a {
+    background-color: var(--rosa);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.70em 1.50em;
+    text-decoration: none;
+}
+
+
+/* FIM WEB - CRIAR EVENTO 5 */
+
+
+/* COMEÇO TABLET - CRIAR EVENTO 5 */
+
+@media screen and (max-width: 768px) {
+    .conteudo-res1 {
+        /* background: lightblue; */
+        height: 150vh;
+        margin: auto;
+        padding: 3em 0;
+        width: 60vw;
+    }
+    .banner_res1 {
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: linear-gradient(rgba(37, 1, 38, 0.45), rgba(37, 1, 38, 0.45)), url(../imagens/Banner-Criar-Evento.jpg);
+        display: flex;
+        height: 35vh;
+        justify-content: center;
+        text-transform: uppercase;
+    }
+    .titulo-res1 h1 {
+        /* background: lightcoral; */
+        color: var(--preto);
+        font-size: 2em;
+        font-weight: 700;
+        height: 9.3vh;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .container-res1 {
+        /* background: yellow; */
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+    }
+    .esquerdo-res {
+        /* background: blueviolet; */
+        width: 30vw;
+        padding: 20px;
+    }
+    .esquerdo-res1 h2 {
+        /* background: blue; */
+        text-transform: uppercase;
+        font-weight: 580;
+        font-size: 1.1em;
+    }
+    .box-res1 h3 {
+        /* background: yellowgreen; */
+        font-size: 1.1em;
+        font-weight: 580;
+    }
+    .box-res1 p {
+        /* background: yellow; */
+        font-size: 0.9em;
+        font-weight: lighter;
+    }
+    .box-res1 {
+        margin: 20px 0;
+    }
+    .direito-res1 {
+        /* background: #EF5BA1; */
+        width: 30vw;
+        padding: 20px;
+    }
+    .direito-res1 h2 {
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 1.1em;
+    }
+    .botão_res1 {
+        align-items: center;
+        display: flex;
+        height: 12vh;
+        justify-content: center;
+        width: 100%;
+        /* background: #3CBACE; */
+    }
+    .botão_res1 a {
+        background-color: var(--rosa);
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 0.70em 1.50em;
+        text-decoration: none;
+    }
+
+    
+.container-criarevento5{
+    align-items: center;
+    /* background: darkgoldenrod; */
+    display: flex;
+    height: 150vh;
+    justify-content: center;
+}
+}
+
+
+/* FIM TABLET - CRIAR EVENTO 5 */
+
+
+/* COMEÇO MOBILE - CRIAR EVENTO 5 */
+
+@media screen and (max-width: 375px) {
+    .container-criarevento5{
+        align-items: center;
+        /* background: darkgoldenrod; */
+        display: flex;
+        height: 180vh;
+        justify-content: center;
+}
+
+    .titulo-res1 h1 {
+        /* background: lightcoral; */
+        color: var(--preto);
+        font-size: 1.5em;
+        font-weight: 700;
+        height: 6.3vh;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .esquerdo-res1 h2 {
+        /* background: blue; */
+        text-transform: uppercase;
+        font-weight: 580;
+        font-size: 0.9em;
+    }
+    .direito-res1 h2 {
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 0.9em;
+    }
+    .box-res1 h3 {
+        /* background: yellowgreen; */
+        font-size: 1em;
+        font-weight: 580;
+    }
+    .box-res1 p {
+        /* background: yellow; */
+        font-size: 0.9em;
+        font-weight: lighter;
+    }
+    .direito-res1 {
+        /* background: #EF5BA1; */
+        width: 80vw;
+        padding: 20px;
+    }
+    .esquerdo-res1 {
+        /* background: blueviolet; */
+        width: 80vw;
+        padding: 20px;
+    }
+    .conteudo-res1 {
+        /* background: lightblue; */
+        height: 180vh;
+        margin: auto;
+        padding: 3em 0;
+        width: 80vw;
+    }
+    .container-res1 {
+        /* background: yellow; */
+        /* display: flex; */
+        flex-direction: column;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+    }
+    .botão_res1 {
+        align-items: center;
+        display: flex;
+        height: 12vh;
+        justify-content: center;
+        width: 100%;
+        /* background: #3CBACE; */
+    }
+}

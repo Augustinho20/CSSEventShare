@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Fim configurações gerais*/
+
+
+/*Definição de cores*/
+
+:root {
+    --cinza: #808285;
+    --cinza_texto: #4f4e4e;
+    --verde: #11AA58;
+    --vermelho: #ED312F;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --home-banner: #5a155a;
+    --cor_input: #000000;
+    --botão-hover: #f489bc;
+    --cinza_sombra: #E6E6E6;
+}
+
+
+/*Fim definição de cores*/
+
+
+/* COMEÇO WEB - PERFIL ADM CATEGORIA */
+
+.formulario-input-categoria {
+    /* background: yellow; */
+    height: 10vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .formulario-input-categoria form {
+    display: block;
+    justify-content: center;
+} */
+
+.secao-add-categoria {
+    align-items: center;
+    /* background: lightblue; */
+    display: flex;
+    height: 10vh;
+    margin-top: 3em;
+    justify-content: center;
+}
+
+.secao-add-categoria input {
+    border: var(--cinza_sombra) solid 1px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    font-size: 0.9em;
+    height: 5.10vh;
+    margin-right: 0.20em;
+    width: 40vw;
+}
+
+.botao-add-categoria button {
+    background-color: var(--rosa);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 0.90em;
+    font-weight: bold;
+    padding: 0.60em 1.30em;
+    text-decoration: none;
+}
+
+.botao-add-categoria button:hover {
+    box-shadow: 1px 1px 5px #CCC;
+    opacity: 0.7;
+    transition: 0.6s;
+}
+
+.section-main-categoria {
+    align-items: center;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+    width: 100vw;
+}
+
+.section-container-categoria {
+    align-items: center;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    width: 60vw;
+}
+
+.section-procurar-adicionar {
+    align-items: center;
+    /* background-color: pink; */
+    display: flex;
+    height: 30%;
+    justify-content: space-between;
+    width: 90%
+}
+
+.section-lista-categorias {
+    align-items: center;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.input-buscar-categoria {
+    border: 1px solid var(--cinza_sombra);
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    height: 5.30vh;
+    width: 40vh;
+}
+
+::-moz-placeholder {
+    color: var(--cinza_texto);
+    font-size: 1em;
+    padding: 0 1em;
+}
+
+.btn-procurar-categoria {
+    color: var(--branco);
+    background-color: var(--rosa);
+    border: none;
+    font-size: 0.8em;
+    font-weight: bold;
+    height: 5.30vh;
+    padding: 0 1.50em;
+}
+
+.btn-procurar-categoria:hover {
+    cursor: pointer;
+}
+
+.div-input {
+    /* background-color: gray; */
+    width: 70%;
+}
+
+.div-adicionar-categoria {
+    /* background-color: green; */
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 35%;
+}
+
+.div-adicionar-categoria div {
+    align-items: center;
+    border: 2.5px solid var(--azul);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.div-adicionar-categoria div section {
+    /* background-color: pink; */
+    text-align: center;
+    width: 85%;
+}
+
+.btn-adicionar-categoria {
+    background: var(--azul);
+    color: var(--branco);
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    height: 4.5vh;
+    padding: 0 1.8em;
+}
+
+.btn-adicionar-categoria:hover {
+    cursor: pointer;
+}
+
+.section-minicard-categoria {
+    /* background-color: black; */
+    border: 1px solid var(--cinza_sombra);
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2px 0;
+}
+
+.div-minicard-nome-categoria {
+    align-items: center;
+    /* background-color: red; */
+    display: flex;
+    height: 150%;
+    width: 50%;
+}
+
+.div-minicard-nome-categoria p {
+    font-size: 1em;
+    font-weight: 100;
+    padding-left: 0.5em;
+}
+
+.div-editar-deletar-categoria {
+    align-items: center;
+    /* background-color: purple; */
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 12%;
+}
+
+.edits {
+    height: 20px;
+    width: 20px;
+}
+
+.edits:hover {
+    cursor: pointer;
+}
+
+.deletes {
+    height: 15px;
+    width: 15px;
+}
+
+.deletes:hover {
+    cursor: pointer;
+}
+
+.botao-editar-excluir-categoria {
+    background: var(--branco);
+    border: none;
+}
+
+
+/* FIM WEB - PERFIL ADM CATEGORIA */
+
+
+/* COMEÇO TABLET - PERFIL ADM CATEGORIA */
+
+@media screen and (max-width: 768px) {
+    .secao-add-categoria input {
+        border: var(--cinza_sombra) solid 1px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 15px var(--cinza_sombra);
+        font-size: 0.9em;
+        height: 5.10vh;
+        margin-right: 0.20em;
+        width: 60vw;
+    }
+    .section-minicard-categoria {
+        /* background-color: black; */
+        border: 1px solid var(--cinza_sombra);
+        box-shadow: 2px 2px 15px var(--cinza_sombra);
+        display: flex;
+        height: 5vh;
+        justify-content: space-between;
+        width: 73.7vw;
+    }
+    .section-main-categoria {
+        align-items: center;
+        /* background-color: black; */
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3em;
+        width: 100vw;
+    }
+    .secao-add-categoria {
+        align-items: center;
+        /* background: lightblue; */
+        display: flex;
+        height: 10vh;
+        margin-top: 3em;
+        justify-content: center;
+        width: 108vw;
+    }
+    .botao-add-categoria button {
+        background-color: var(--rosa);
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 0.90em;
+        font-weight: bold;
+        padding: 0.45em 1.30em;
+        text-decoration: none;
+    }
+}
+
+
+/* FIM TABLET - PERFIL ADM CATEGORIA */
+
+
+/* COMEÇO MOBILE - PERFIL ADM CATEGORIA */
+
+@media screen and (max-width: 375px) {
+    .section-minicard-categoria {
+        /* background-color: black; */
+        border: 1px solid var(--cinza_sombra);
+        box-shadow: 2px 2px 15px var(--cinza_sombra);
+        display: flex;
+        height: 5.5vh;
+        justify-content: space-between;
+        width: 89vw;
+    }
+    .div-editar-deletar-categoria {
+        align-items: center;
+        /* background-color: purple; */
+        display: flex;
+        height: 100%;
+        justify-content: space-evenly;
+        width: 15%;
+    }
+    .secao-add-categoria {
+        align-items: center;
+        /* background: lightblue; */
+        display: flex;
+        height: 10vh;
+        margin-top: 3em;
+        margin-left: 1.5em;
+        justify-content: center;
+    }
+    .section-main-categoria {
+        align-items: center;
+        /* background-color: black; */
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3em;
+        width: 105vw;
+    }
+    .botao-add-categoria button {
+        background-color: var(--rosa);
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 0.90em;
+        font-weight: bold;
+        padding: 0.43em 1.30em;
+        text-decoration: none;
+    }
+}
+
+
+/* FIM MOBILE - PERFIL ADM CATEGORIA */

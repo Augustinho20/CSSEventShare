@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --cinza: #E6E6E6;
+    --verde: #11AA58;
+    --azul: rgb(60, 186, 206);
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #f5c10d;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --roxo_banner: #5a155a;
+    --cinza_sombra: #E6E6E6;
+}
+
+
+/*COMEÇO WEB - CRIAR EVENTO 1*/
+
+.banner-criar-evento {
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(37, 1, 38, 0.45), rgba(37, 1, 38, 0.45)), url(../imagens/Banner-Criar-Evento.jpg);
+    display: flex;
+    height: 35vh;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.titulo-banner-criar-evento {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-banner-criar-evento h1 {
+    color: var(--branco);
+    font-size: 5em;
+}
+
+.conteudo-criar-evento-1 {
+    align-items: center;
+    /* background: #94399E; */
+    display: flex;
+    height: 70vh;
+    margin: auto;
+    width: 60vw;
+}
+
+.textos-banner-criar-evento-1 {
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 55vh;
+    margin: auto;
+    width: 60vw;
+}
+
+.texto-banner-criar-evento-1 {
+    width: 100%;
+    text-align: justify;
+    /* background: #11AA58; */
+}
+
+.texto-banner-criar-evento-1 p {
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    font-size: 1.3em;
+    /* background: #11AA58; */
+}
+
+.botao-banner-criar-evento-1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* background: #11AA58; */
+    height: 10vh;
+}
+
+.botao-banner-criar-evento-1 a:hover {
+    box-shadow: 1px 1px 5px #CCC;
+    opacity: 0.7;
+    transition: 0.6s;
+}
+
+.botao-banner-criar-evento-1 a {
+    background: var(--rosa);
+    border: none;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.60em 1.50em;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*FIM WEB - CRIAR EVENTO 1*/
+
+
+/*COMEÇO TABLET - CRIAR EVENTO 1*/
+
+@media screen and (max-width: 768px) {
+    .titulo-banner-criar-evento h1 {
+        font-size: 4em;
+    }
+    .textos-banner-criar-evento-1 {
+        /* background: red; */
+        height: 28em;
+        width: 100vw;
+    }
+    .conteudo-criar-evento-1 {
+        /* background: blue; */
+        width: 80vw;
+    }
+    .texto-banner-criar-evento-1 p {
+        font-size: 1.10em;
+    }
+    .botao-banner-criar-evento-1 a:hover {
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+}
+
+
+/*FIM WEB - CRIAR EVENTO 1*/
+
+
+/*COMEÇO MOBILE - CRIAR EVENTO 1*/
+
+@media screen and (max-width: 375px) {
+    .titulo-banner-criar-evento h1 {
+        font-size: 2.30em;
+    }
+    .textos-banner-criar-evento-1 {
+        /* background: red; */
+        height: 31em;
+        margin-top: 2em;
+        padding-bottom: 1.50em;
+        width: 90vw;
+    }
+    .conteudo-criar-evento-1 {
+        /* background: blue; */
+        height: 85vh;
+        width: 90vw;
+    }
+    .texto-banner-criar-evento-1 p {
+        font-size: 1em;
+    }
+    .botao-banner-criar-evento-1 {
+        padding-top: 1em;
+    }
+}
+
+
+/*FIM TABLET - CRIAR EVENTO 1*/

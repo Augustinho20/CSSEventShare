@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a, h1, h2, h3, h4, p{
+    font-family: 'Open Sans', sans-serif;
+}
+/*Fim configurações gerais*/
+
+/*Definição de cores*/
+:root{
+    --cinza: #808285;
+    --verde: #11AA58;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza_sombra: #E6E6E6;
+}
+/*Fim definição de cores*/
+
+.main-perfilU{
+    /* background: #11AA58; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.container-perfilU{
+    /* background: yellow; */
+    width: 62vw;
+}
+
+.texto-perfilU{
+    /* background: #3CBACE; */
+    width: 30vw;
+    margin-bottom: 20px;
+}
+
+.texto-perfilU h2{
+    font-size: 1.7em;
+    font-weight: normal;
+    margin: 5px 0;
+}
+
+.texto-perfilU p{
+    font-size: 1.4em;
+
+}
+
+.display-perfilU{
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.painel-perfilU{
+    background: var(--branco);
+    border: solid 1px var(--cinza_sombra);
+    box-shadow: 10px 10px 20px var(--cinza_sombra);
+    width: 65vw;
+    padding: 30px;
+    /* height: 50vh; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.esquerda-perfilU h3{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.7em;
+}
+
+.esquerda-perfilU img{
+    width: 30vw;
+    margin-top: 30px;
+}
+
+.editar-perfilU{
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    /* background: #3CBACE; */
+}
+
+.editar-perfilU a{
+    align-items: center;
+    background-color: var(--laranja);
+    border: none;
+    color: white;
+    display: flex;
+    font-size: 1em;
+    font-weight: bold;
+    height: 7vh;
+    justify-content: center;
+    text-decoration: none;
+    width: 15vw;
+    margin-bottom: 20px;
+}
+
+.esquerda-perfilU{
+    /* background: #94399E; */
+    width: 30vw;
+    margin-left: 20px;
+}
+
+.direita-perfilU{
+    /* background: #ED312F; */
+    width:22vw;
+}
+
+.box-perfilU{
+    margin-bottom: 10px;
+}
+
+.box-perfilU h3{
+    font-weight: normal;
+    font-size: 1.4em;
+}
+
+.box-perfilU p{
+    font-size: 1.2em;
+}
+
+.circulo-perfilU{
+    background: var(--azul);
+    border-radius: 50px;
+    height: 3vh;
+    width: 1.4vw;
+    margin-right: 5px;
+}
+
+.status-perfilU{
+    display: flex;
+    align-items: center;
+}
+
+.legenda-perfilU{
+    /* background: #11AA58; */
+    height: 30vh;
+}
+
+.legenda-perfilU p{
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.legendaSt-perfilU{
+    /* background: #F5C10D; */
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.box2-perfilU{
+    display: flex;
+    /* background: #3CBACE; */
+    align-items: center;
+}
+
+.padrao-perfilU{
+    border-radius: 50px;
+    height: 3vh;
+    width: 1.4vw;
+    margin-right: 5px;
+}
+
+.aprovCir-perfilU{
+    background: var(--verde);
+}
+
+.espCir-perfilU{
+    background: var(--azul);
+}
+
+.repCir-perfilU{
+    background: var(--vermelho);
+}
+
+.ediCir-perfilU{
+    background: var(--laranja);
+}
+
+.conCir-perfilU{
+    background: var(--rosa);
+}
+
+@media screen and (max-width: 768px){
+
+.capa-perfilU {
+    width: 100vw;
+    height: 15vh;
+}
+    
+.nome-perfilU {
+    width: 30vw;
+    height: 5.6vh;
+    margin-left: unset;
+    position: relative; top: 63.8px; left: 200px;
+}
+    
+.menu-perfilU {
+    width: 50vw;
+    margin-left: 200px;
+    margin-top: 0px;
+}
+    
+.container-perfilU {
+    width: 90vw;
+}
+
+.painel-perfilU {
+    width: 90vw;
+    padding: 20px 10px;
+}
+
+.esquerda-perfilU {
+    /* background: #3CBACE; */
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.esquerda-perfilU img {
+    width: 45vw;
+}
+
+.direita-perfilU {
+    /* background: #ED312F; */
+    width: 30vw;
+}
+
+.legendaSt-perfilU {
+    /* background: #ED312F; */
+    width: 90vw;
+}
+
+.padrao-perfilU {
+    height: 2.7vh;
+    width: 2.3vw; 
+}
+   
+.esquerda-perfilU h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    width: 10em;
+}
+
+.circulo-perfilU {
+    width: 2vw;
+    height: 2.5vh;
+}
+.fotoperfil-perfilU img {
+    width: 14vw;
+    height: 15vh;
+    margin: 17px 65px;
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .capa-perfilU{
+        width: 110vw;
+        height: 15vh;
+    }
+        
+    .nome-perfilU p {
+        font-size: 1.1em;
+    }
+    
+    .nome-perfilU{
+        width: 50vw;
+        height: 5.4vh;
+        margin-right: 5px;
+        position: relative; top: 64px; left: 120px;
+    }
+        
+    .fotoperfil_perfilU img{
+        width: 1vw;
+        height: 1vh; 
+        margin: 1px; 
+    }
+        
+    .menu-perfilU{
+        width: 70vw;
+        margin-left: 120px;
+    }
+    
+    .texto-perfilU {
+        margin-bottom: 20px;
+        width: 80vw;
+    }
+    
+    .esquerda-perfilU {
+        justify-content: flex-start;
+    }
+        
+    body {
+        width: 110vw;
+    }
+    
+    .esquerda-perfilU h3 {
+        /* font-weight: normal;
+        text-transform: uppercase;
+        font-size: 1.7em; */
+        width: 11em;
+        /* height: 14em; */
+    }
+    
+    .direita-perfilU {
+        justify-content: flex-end;
+        display: flex;
+        flex-direction: column;
+        height: 38em;
+        width: 79vw;
+    }
+    
+    .esquerda-perfilU img {
+        width: 75vw;
+    }
+    
+    .esquerda-perfilU {
+        height: 14em;
+        /* background: #3CBACE; */
+        width: 45vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .esquerda-perfilU {
+        /* background: #94399E; */
+        width: 0vw;
+        margin-left: 20px;
+    }
+    
+    .editar-perfilU a {
+        width: 35vw;
+        margin-bottom: 20px;
+    }
+    
+    .legendaSt-perfilU {
+        display: none;
+    }
+    
+    .legenda-perfilU {
+        height: 2em;
+    }
+    
+    .legenda-perfilU p {
+        display: none;
+    }
+    
+    .circulo-perfilU {
+        width: 3.5vw;
+        height: 2vh;
+    }
+    
+    .fotoperfil-perfilU img {
+        width: 22vw;
+        height: 12vh;
+        margin: 25px 10px;
+    }
+    .menu-perfilU a {
+        text-decoration: none;
+        font-family: 'Open Sans';
+        color: var(--cinza);
+        font-size: 1em;
+    }
+}
+   
+}

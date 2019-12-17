@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Fim configurações gerais*/
+
+
+/*Definição de cores*/
+
+:root {
+    --cinza: #808285;
+    --verde: #11AA58;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza_sombra: #E6E6E6;
+}
+
+
+/*Fim definição de cores*/
+
+
+/* COMEÇO WEB - FAQ */
+
+#banner-faq {
+    align-items: center;
+    background-image: linear-gradient(rgba(37, 1, 38, 0.55), rgba(37, 1, 38, 0.55)), url(../imagens/BannerFAQ.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 35vh;
+    justify-content: space-around;
+}
+
+.texto-faq {
+    align-items: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+}
+
+.texto-faq h1 {
+    color: var(--branco);
+    font-size: 5em;
+}
+
+.link-faq p {
+    /* background: lightgreen; */
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--preto);
+    margin: 20px 0;
+}
+
+.indice-faq {
+    padding-top: 2em;
+}
+
+.indice-faq a {
+    text-decoration: none;
+}
+
+.link-faq p:hover {
+    color: var(--rosa);
+}
+
+.container-faq {
+    /* background: red; */
+    display: flex;
+    height: 257vh;
+    justify-content: center;
+}
+
+.indice-faq {
+    /* background: lightcoral; */
+    width: 18vw;
+}
+
+.perguntas-faq {
+    /* background: lightblue; */
+    height: 245vh;
+    width: 42vw;
+}
+
+.perguntas-faq h2 {
+    /* background: yellow; */
+    font-weight: bold;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.box-faq {
+    /* background: blue; */
+    margin: 1.50em 0;
+}
+
+.box-faq h3 {
+    /* background: blueviolet; */
+    font-weight: normal;
+    font-size: 1.3em;
+    margin: 0.30em 0;
+    text-align: justify;
+}
+
+.box-faq p {
+    /* background: red; */
+    font-size: 1em;
+    line-height: 25px;
+    text-align: justify;
+}
+
+#sobre-faq {
+    /* background: red; */
+    padding-top: 3em;
+}
+
+#organizar-faq {
+    /* background: red; */
+    padding-top: 1.80em;
+}
+
+#participante-faq {
+    /* background: red; */
+    padding-top: 1.80em;
+    padding-bottom: 2em;
+}
+
+
+/* FIM WEB - FAQ */
+
+
+/* COMEÇO TABLET - FAQ */
+
+@media screen and (max-width: 768px) {
+    .texto-faq h1 {
+        font-size: 4em;
+    }
+    .container-faq {
+        /* background: red; */
+        height: 362vh;
+    }
+    .indice-faq {
+        width: 30vw;
+    }
+    .perguntas-faq {
+        /* background: red; */
+        height: 335vh;
+        width: 60vw;
+    }
+}
+
+
+/* FIM TABLET - FAQ */
+
+
+/* COMEÇO MOBILE - FAQ */
+
+@media screen and (max-width: 375px) {
+    .container-faq {
+        /* background: red; */
+        height: 438vh;
+    }
+    .texto-faq h1 {
+        font-size: 2.60em;
+    }
+    .indice-faq {
+        display: none;
+    }
+    .perguntas-faq {
+        /* background: red; */
+        height: 405vh;
+        width: 90vw;
+    }
+}
+
+
+/* FIM MOBILE - FAQ */

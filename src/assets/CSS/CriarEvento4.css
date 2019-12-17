@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Fim configurações gerais*/
+
+
+/*Definição de cores*/
+
+:root {
+    --cinza: #808285;
+    --verde: #11AA58;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza_sombra: #E6E6E6;
+}
+
+
+/*Fim definição de cores*/
+
+
+/* COMEÇO WEB - CRIAR EVENTO 4 */
+
+
+/* .main-criar-evento-4{
+    background-color: #11AA58;
+    height: 300vh;
+} */
+
+.obs p {
+    font-size: 0.70em;
+    padding-top: 0.50em;
+}
+
+.titulo-criar-evento-4 {
+    align-items: center;
+    /* background: lightgreen; */
+    display: flex;
+    height: 13vh;
+    margin-top: 2.50em;
+    justify-content: center;
+}
+
+.titulo-criar-evento-4 h1 {
+    color: var(--preto);
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.criar-evento-4-pai-input {
+    /* background: blue; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    width: 50vw;
+}
+
+.criar-evento-4-input {
+    border-radius: 2px;
+    height: 5.30vh;
+    margin: 8px 0;
+    width: 50vw;
+    padding: 0.5em;
+    border: var(--cinza_sombra) solid 1px;
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    font-size: 0.9em;
+}
+
+.criar-evento-4-texto {
+    height: 15vh;
+    margin-top: 0.70em;
+    width: 50vw;
+    border: var(--cinza_sombra) solid 1px;
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    border-radius: 2px;
+}
+
+.criar-evento-4-div-texto textarea::placeholder {
+    font-size: 0.90em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-criar-evento-4 {
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(37, 1, 38, 0.45), rgba(37, 1, 38, 0.45)), url(../imagens/Banner-Criar-Evento.jpg);
+    display: flex;
+    height: 35vh;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.container-sub6 {
+    /* background: #ED312F; */
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    height: auto;
+}
+
+#formulario-sub6 {
+    /* background: #11AA58; */
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+.inputs-sub6 {
+    /* background: #94399E; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs-sub6 input {
+    width: 60vw;
+    height: 5.30vh;
+    margin: 10px 0;
+    border: var(--cinza_sombra) solid 1px;
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    padding: 5px;
+}
+
+.inputs-sub6 textarea {
+    border: var(--cinza_sombra) solid 1px;
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    width: 60vw;
+}
+
+.radiogeral-sub6 {
+    /* background: yellow; */
+    padding-bottom: 2em;
+    width: 50vw;
+}
+
+.radio-sub6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-sub6 p {
+    font-family: 'Open Sans';
+}
+
+.radio-sub6 input {
+    margin: 5px 0;
+}
+
+.categorias-sub6 {
+    /* background: purple; */
+    margin: 1.50em 0;
+}
+
+.categorias-sub6 p {
+    margin-bottom: 5px;
+}
+
+.categorias-sub6 select {
+    /* -webkit-appearance: none; */
+    padding: 5px;
+    width: 29vw;
+    border: var(--cinza_sombra) 1px solid;
+}
+
+.diversidade-sub6 {
+    /* background: purple; */
+    margin: 10px 0;
+}
+
+.diversidade-sub6 p {
+    font-family: 'Open Sans';
+}
+
+.diversidade-sub6 input {
+    margin: 5px 0;
+}
+
+.inputtexto-sub6 input {
+    height: 6vh;
+    margin: 10px 0;
+    border: var(--cinza_sombra) solid 1px;
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    padding: 5px;
+    width: 30vw;
+}
+
+.coffe-sub6 {
+    margin: 10px 0;
+}
+
+.radio2-sub6 input {
+    margin: 5px 0;
+}
+
+#input2 {
+    height: 6vh;
+    margin: 10px 0;
+    border: var(--cinza_sombra) solid 1px;
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    padding: 5px;
+    width: 30vw;
+}
+
+.foto-sub6 {
+    margin: 10px 0;
+}
+
+.foto-sub6 p {
+    margin-bottom: 5px;
+}
+
+.fileContainer .chooseFileButton {
+    background-color: var(--rosa) !important;
+}
+
+.obs-sub6 {
+    margin: 10px 0;
+}
+
+.obs-sub6 input {
+    height: 12vh;
+    margin: 10px 0;
+    border: var(--cinza_sombra) solid 1px;
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    padding: 5px;
+    width: 60vw;
+}
+
+.botão_sub6 {
+    align-items: center;
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    margin-bottom: 2em;
+    /* background: #3CBACE; */
+}
+
+.botão_sub6 button {
+    background-color: var(--rosa);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.70em 1.40em;
+    text-decoration: none;
+}
+
+.botão_sub6 button:hover {
+    box-shadow: 1px 1px 5px #CCC;
+    opacity: 0.7;
+    transition: 0.6s;
+}
+
+
+/* FIM WEB - CRIAR EVENTO 4 */
+
+
+/* COMEÇO TABLET - CRIAR EVENTO 4 */
+
+@media screen and (max-width: 768px) {
+    #formulario-sub6 {
+        /* background: #11AA58; */
+        width: 80vw;
+    }
+    .obs p {
+        font-size: 0.70em;
+        padding-top: 0.50em;
+    }
+    .titulo-criar-evento-4 {
+        /* background: lightgreen; */
+        height: 12vh;
+    }
+    .titulo-criar-evento-4 h1 {
+        font-size: 2.50em;
+    }
+    .container-sub6 {
+        /* background: #ED312F; */
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+        height: auto;
+        margin-left: 4.5em;
+    }
+    .criar-evento-4-pai-input {
+        /* background: blue; */
+        width: 80vw;
+    }
+    .criar-evento-4-input {
+        width: 80vw;
+    }
+    .criar-evento-4-texto {
+        width: 80vw;
+    }
+    .radiogeral-sub6 {
+        /* background: yellow; */
+        width: 80vw;
+    }
+    .categorias-sub6 select {
+        width: 80vw;
+    }
+    .plu-priv p {
+        /* background: mediumvioletred; */
+        font-size: 0.98em;
+    }
+    .procurar-arquivo {
+        /* background: palegreen; */
+        width: 80vw;
+    }
+    .botão_sub6 button:hover {
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+}
+
+
+/* FIM TABLET - CRIAR EVENTO 4 */
+
+
+/* COMEÇO MOBILE - CRIAR EVENTO 4 */
+
+@media screen and (max-width: 375px) {
+    #formulario-sub6 {
+        /* background: #11AA58; */
+        width: 80vw;
+    }
+    .obs p {
+        font-size: 0.70em;
+        padding-top: 0.50em;
+    }
+    .titulo-criar-evento-4 {
+        /* background: lightgreen; */
+        height: 7vh;
+    }
+    .titulo-criar-evento-4 h1 {
+        font-size: 1.60em;
+    }
+    .container-sub6 {
+        /* background: #ED312F; */
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+        height: auto;
+        margin-left: 4em;
+    }
+    .criar-evento-4-pai-input {
+        /* background: blue; */
+        width: 80vw;
+    }
+    .criar-evento-4-input {
+        width: 80vw;
+    }
+    .criar-evento-4-texto {
+        width: 80vw;
+    }
+    .radiogeral-sub6 {
+        /* background: yellow; */
+        width: 80vw;
+    }
+    .categorias-sub6 select {
+        width: 80vw;
+    }
+    .plu-priv p {
+        /* background: mediumvioletred; */
+        font-size: 0.88em;
+    }
+    .obs p {
+        /* background: orange; */
+        font-size: 0.65em;
+    }
+    .procurar-arquivo {
+        /* background: palegreen; */
+        width: 80vw;
+    }
+    .botão_sub6 button:hover {
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+}
+
+
+/* FIM MOBILE - CRIAR EVENTO 4 */

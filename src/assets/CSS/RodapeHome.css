@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a, h1, h2, h3, h4, p{
+    font-family: 'Open Sans', sans-serif;
+}
+/*Fim configurações gerais*/
+
+
+/*Definição de cores*/
+:root{
+    --cinza: #E6E6E6;
+    --verde: #11AA58;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --roxo_banner:#5a155a;
+    --botão_hover: #f9acd0;
+    --cinza-sombra: #E6E6E6;
+}
+/*Fim definição de cores*/
+
+/* Começo do Footer */
+#rodape-home{
+    background: var(--branco);
+    display: flex;
+    height: 23vh;
+    justify-content: center;
+}
+
+.itens-rodape-home{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.logo-tw-rodape-home img{
+    /* background: red; */
+    height: 1.50em;
+    width: 8.60em;
+    
+}
+
+.logo-eventshare-rodape-home{
+    height: 1em;
+    width: 5em;
+}
+
+.logo-eventshare-rodape-home img{
+    /* background: blue; */
+    height: 1em;
+    width: 4.90em;
+}
+
+.email-contato-rodape-home{
+    align-items: flex-end;
+    display: flex;
+    height: 5vh;
+}
+
+.email-contato-rodape-home p{
+    font-size: 0.75em;
+    font-weight: 900;
+}
+
+.seguir-rodape-home{
+    align-items: center;
+    display: flex;
+    height: 2vh;
+    justify-content: center;
+    padding: 0.90em 0;
+}
+
+.seguir-rodape-home p{
+    font-size: 0.90em;
+    font-weight: 900;
+}
+
+.logos-redes-sociais-rodape-home{
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+    width: 7vw;
+}
+
+.logos-redes-sociais-rodape-home img{
+    height: 4vh;
+    width: 4.10vh;
+}
+/* Fim do Footer */
+
+
+
+
+
+/* Começo do Footer - Tablet Media Query 768px */
+@media screen and (max-width: 768px){
+
+    .itens-rodape-home{
+        /* background: red; */
+        width: 90vw;
+    }
+
+    .lado-direito-rodape-home{
+        /* background: #EF5BA1; */
+        width: 13vw;
+    }
+
+    .seguir-rodape-home p{
+        font-size: 0.80em;
+    }
+
+    .logos-redes-sociais-rodape-home{
+        /* background: yellow; */
+        width: 13vw;
+    }
+
+    .logos-redes-sociais-rodape-home img{
+        height: 4vh;
+        width: 4.30vh;
+    }
+
+}
+/* Fim do Footer - Tablet Media Query 768px */
+
+
+
+
+/* Começo do Footer - Mobile Media Query 375px */
+@media screen and (max-width: 375px){
+
+    #rodape-home{
+        align-items: center;
+        display: flex;
+        height: 33vh;
+    }
+
+    .itens-rodape-home{
+        align-items: center;
+        /* background: lightblue; */
+        display: block;
+        height: 23vh;
+        width: 85vw;
+    }
+
+    .email-contato-rodape-home p{
+        font-size: 0.70em;
+    }
+
+    .lado-direito-rodape-home{
+        /* background: #EF5BA1; */
+        padding-top: 0.80em;
+        width: 25vw;
+    }
+
+    .seguir-rodape-home{
+        justify-content: flex-start;
+    }
+
+    .seguir-rodape-home p{
+        font-size: 0.80em;
+    }
+
+    .logos-redes-sociais-rodape-home{
+        /* background: yellow; */
+        width: 25vw;
+    }
+
+}
+/* Fim do Footer - Mobile Media Query 375px */
+
+

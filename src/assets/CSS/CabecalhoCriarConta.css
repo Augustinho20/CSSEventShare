@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a, h1, h2, h3, h4, p{
+    font-family: 'Open Sans', sans-serif;
+}
+/*Fim configurações gerais*/
+
+/*Definição de cores*/
+:root{
+    --cinza: #808285;
+    --verde: #11AA58;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --roxo_banner:#5a155a;
+    --botão_hover: #f489bc;
+}
+/*Fim definição de cores*/
+
+/* Configurações do header */
+#cabecalho-CriarConta1{
+    /* background: green; */
+    box-shadow: 0.05em 0.05em #cccccc;
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+}
+
+.itens-cabecalho-CriarConta1{
+    align-items: center;
+    /* background: red; */
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.logo-eventshare-cabecalho-CriarConta1 img{
+    height: 5.8vh;
+    width: 13.50vw;
+}
+
+.menu-cabecalho-CriarConta1{
+    /* background: yellow; */
+    width: 10vw;
+}
+
+.menu-cabecalho-CriarConta1 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.menu-cabecalho-CriarConta1 ul a{
+    color: var(--preto);
+    font-size: 0.90em;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.menu-cabecalho-CriarConta1 ul a:hover{
+    color: var(--rosa);
+    border-bottom: 0.2em  solid var(--rosa);
+    padding: 0.70em 0;
+}
+/* Fim do header */
+
+
+
+
+/* Começo do Header - Tablet Media Query 768px */
+@media screen and (max-width: 768px){
+    
+    .itens-cabecalho-CriarConta{
+        /* background: red; */
+        width: 90vw;
+    }
+
+    .logo-eventshare-cabecalho-CriarConta img{
+        width: 23vw;
+    }
+
+    .menu-cabecalho-CriarConta{
+        /* background: yellow; */
+        display: flex;
+        justify-content: flex-end;
+        width: 19.50vw;
+    }
+    
+    .menu-cabecalho-CriarConta ul a:hover{
+        border-bottom: none;
+        color: var(--preto)
+    }
+
+    .menu{
+        /* background: blue; */
+        width: 20vw;
+    }
+
+}
+/* Fim do Header - Tablet Media Query 768px */
+
+
+
+
+/* Começo do Header - Mobile Media Query 375px */
+@media screen and (max-width: 375px){
+    
+    #cabecalho-CriarConta{
+        align-items: center;
+        /* background: green; */
+        height: 20vh;
+    }
+
+    .itens-cabecalho-CriarConta{
+        /* background: blue; */
+        height: 25vh;
+        width: 85vw;
+    }
+
+    .logo-eventshare-cabecalho-CriarConta img{
+        /* background: purple; */
+        height: 4.8vh;
+        width: 40vw;
+    }
+
+    .menu-cabecalho-CriarConta{
+        align-items: flex-start;
+        /* background: yellow; */
+        height: 12vh;
+        width: 39vw;
+    }
+
+    .menu-cabecalho-CriarConta ul{
+        align-items: center;
+        /* background: greenyellow; */
+        display: flex;
+        flex-wrap: wrap;
+        height: 9vh;
+        justify-content: center;
+        width: 21vw;
+    }
+    
+    .menu-cabecalho-CriarConta ul a:hover{
+        border-bottom: none;
+    }
+    
+    .menu{
+        align-items: center;
+        /* background: red; */
+        display: flex;
+        height: 12vh;
+        justify-content: flex-end;
+        width: 39vw;
+    }
+
+}
+/* Fim do Header - Mobile Media Query 375px */
+

@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Fim configurações gerais*/
+
+
+/*Definição de cores*/
+
+:root {
+    --cinza: #808285;
+    --verde: #11AA58;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza_sombra: #E6E6E6;
+}
+
+
+/*Fim definição de cores*/
+
+
+/* COMEÇO WEB - PERFIL ADM DESCRIÇÃO APROVAR DO EVENTO */
+
+.secao-geral-descricao2 {
+    /* background: lightblue; */
+    display: flex;
+    height: 125vh;
+    margin: auto;
+    width: 60vw;
+}
+
+.container_descrição2 {
+    /* background: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 115vh;
+    margin-top: 2.55em;
+    width: 40vw;
+}
+
+.h1_descrição2 {
+    /* background: red; */
+    font-size: 1.50em;
+    width: 35vw;
+}
+
+.usuario_descrição2 {
+    align-items: center;
+    /* background: blueviolet; */
+    display: flex;
+    height: 18vh;
+    justify-content: space-between;
+    width: 35vw;
+    margin-bottom: 9em;
+}
+
+.imagem-usuario2 {
+    /* background: red; */
+    border-radius: 100%;
+    height: 10vh;
+    width: 5vw;
+}
+
+.imagem-usuario2 img {
+    border-radius: 100%;
+    height: 10vh;
+    width: 5vw;
+}
+
+.nome-usuario-descrição2-evento {
+    align-items: center;
+    /* background:yellow; */
+    display: flex;
+    width: 29vw;
+}
+
+.nome-usuario-descrição2-evento p {
+    font-size: 1em;
+}
+
+.descrição2_descrição2 {
+    /* background: lightblue; */
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: space-evenly;
+    width: 35vw;
+}
+
+.imagem-evento2 img {
+    border: 0.80px solid var(--cinza);
+    height: 35vh;
+    width: 30vw;
+}
+
+.descricao2-evento {
+    /* background: lightpink; */
+    width: 30vw;
+}
+
+.descricao2-evento p {
+    font-size: 1em;
+    padding: 0.30em 0;
+}
+
+.titulo-descrição2 {
+    font-weight: bold;
+}
+
+.quadrado_forades2 {
+    /* background: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 20vw;
+}
+
+.direita_topo_descrição2 {
+    align-items: center;
+    /* background: lightpink; */
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    display: flex;
+    flex-direction: column;
+    height: 23vh;
+    padding: 1.50em 0;
+}
+
+.botao-aprovar-descricao2-evento {
+    /* background: aqua; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 14vw;
+}
+
+.botao-aprovar-descricao2-evento a {
+    align-items: center;
+    background: var(--verde);
+    color: var(--branco);
+    display: flex;
+    font-size: 1em;
+    font-weight: 800;
+    height: 5vh;
+    justify-content: center;
+    text-decoration: none;
+    width: 14vw;
+}
+
+.botao-aprovar-descricao2-evento:hover {
+    box-shadow: 1px 1px 5px #CCC;
+    opacity: 0.7;
+    transition: 0.6s;
+}
+
+.botao-recusar-descricao2-evento {
+    /* background: aqua; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 14vw;
+}
+
+.botao-recusar-descricao2-evento a {
+    align-items: center;
+    background: var(--vermelho);
+    color: var(--branco);
+    display: flex;
+    font-size: 1em;
+    font-weight: 800;
+    height: 5vh;
+    justify-content: center;
+    text-decoration: none;
+    width: 14vw;
+}
+
+.botao-recusar-descricao2-evento:hover {
+    box-shadow: 1px 1px 5px #CCC;
+    opacity: 0.7;
+    transition: 0.6s;
+}
+
+.botao-editar-descricao2-evento {
+    /* background: aqua; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 14vw;
+}
+
+.botao-editar-descricao2-evento a {
+    align-items: center;
+    background: var(--laranja);
+    color: var(--branco);
+    display: flex;
+    font-size: 1em;
+    font-weight: 800;
+    height: 5vh;
+    justify-content: center;
+    text-decoration: none;
+    width: 14vw;
+}
+
+.botao-editar-descricao2-evento:hover {
+    box-shadow: 1px 1px 5px #CCC;
+    opacity: 0.7;
+    transition: 0.6s;
+}
+
+.redes_descrição2 {
+    /* background: lightseagreen; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 14vw;
+}
+
+.rede-social-compartilhar-descricao2-evento img {
+    height: 4vh;
+    width: 1.9vw;
+}
+
+.info_descrição2 {
+    align-items: center;
+    /* background: lightslategrey; */
+    box-shadow: 2px 2px 15px var(--cinza_sombra);
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    flex-direction: column;
+}
+
+.textoinfo_descrição2 {
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 42vh;
+}
+
+.parte1_descrição2 {
+    /* background: cornflowerblue; */
+    padding: 0 1em;
+}
+
+.data_descrição2 {
+    /* background: magenta; */
+    width: 15vw;
+}
+
+.data_img-descrição2 {
+    align-items: center;
+    /* background: crimson; */
+    display: flex;
+    width: 15vw;
+}
+
+.data_img-descrição2 img {
+    height: 2.90vh;
+    width: 1.40vw;
+}
+
+.data_img-descrição2 p {
+    font-size: 1.20em;
+    padding: 0 0.30em;
+}
+
+.data-horario-descrição2 {
+    /* background: chartreuse; */
+    padding: 0 1.85em;
+}
+
+.data-horario-descrição2 p {
+    font-size: 0.80em;
+    font-weight: 100;
+}
+
+.local_descrição2 {
+    /* background: coral; */
+    padding: 0 1em;
+}
+
+.nome_local_img-descrição2 {
+    align-items: center;
+    /* background: crimson; */
+    display: flex;
+    width: 15vw;
+}
+
+.nome_local_img-descrição2 img {
+    height: 3vh;
+    width: 1.50vw;
+}
+
+.nome_local_img-descrição2 p {
+    font-size: 1.20em;
+    padding: 0 0.30em;
+}
+
+.endereco_local_img-descrição2 {
+    /* background: chartreuse; */
+    padding: 0 1.85em;
+}
+
+.endereco_local_img-descrição2 p {
+    font-size: 0.80em;
+    font-weight: 100;
+}
+
+.parte3_descrição2 iframe {
+    width: 20vw;
+    margin-top: 5em 0;
+}
+
+
+/* FIM WEB - PERFIL ADM DESCRIÇÃO APROVAR DO EVENTO */
+
+
+/* COMEÇO TABLET - PERFIL ADM DESCRIÇÃO APROVAR DO EVENTO */
+
+@media screen and (max-width: 768px) {
+    .secao-geral-descricao2 {
+        /* background: lightblue; */
+        height: 130vh;
+        width: 80vw;
+    }
+    .container_descrição2 {
+        /* background: lightcoral; */
+        height: 120vh;
+        margin-top: 2.55em;
+        width: 50vw;
+    }
+    .h1_descrição2 {
+        /* background: red; */
+        width: 45vw;
+    }
+    .usuario_descrição2 {
+        /* background: blueviolet; */
+        height: 30vh;
+        width: 45vw;
+    }
+    .imagem-usuario2 {
+        /* background: red; */
+        height: 10.50vh;
+        width: 9vw;
+    }
+    .imagem-usuario2 img {
+        height: 10.50vh;
+        width: 9vw;
+    }
+    .nome-usuario-descrição2-evento {
+        /* background:yellow; */
+        width: 34vw;
+    }
+    .descrição2_descrição2 {
+        /* background: lightblue; */
+        height: 150vh;
+        width: 45vw;
+    }
+    .imagem-evento2 img {
+        border: 0.80px solid var(--cinza);
+        height: 33vh;
+        width: 45vw;
+    }
+    .descricao2-evento {
+        /* background: lightpink; */
+        width: 45vw;
+    }
+    .descricao2-evento p {
+        font-size: 0.90em;
+        padding: 0.40em 0;
+    }
+    .quadrado_forades2 {
+        /* background: lightgreen; */
+        height: 103vh;
+        width: 30vw;
+    }
+    .direita_topo_descrição2 {
+        /* background: lightpink; */
+        height: 25vh;
+        padding: 1.50em 0;
+    }
+    .botao-aprovar-descricao2-evento {
+        /* background: aqua; */
+        width: 25vw;
+    }
+    .botao-aprovar-descricao2-evento a {
+        color: var(--branco);
+        text-align: center;
+        text-decoration: none;
+        width: 25vw;
+    }
+    .botao-aprovar-descricao2-evento:hover {
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+    .botao-recusar-descricao2-evento {
+        /* background: aqua; */
+        width: 25vw;
+    }
+    .botao-recusar-descricao2-evento a {
+        color: var(--branco);
+        text-align: center;
+        text-decoration: none;
+        width: 25vw;
+    }
+    .botao-recusar-descricao2-evento:hover {
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+    .botao-editar-descricao2-evento {
+        /* background: aqua; */
+        width: 25vw;
+    }
+    .botao-editar-descricao2-evento a {
+        color: var(--branco);
+        text-align: center;
+        text-decoration: none;
+        width: 25vw;
+    }
+    .botao-editar-descricao2-evento:hover {
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+    .redes_descrição2 {
+        /* background: lightseagreen; */
+        width: 25vw;
+    }
+    .rede-social-compartilhar-descricao2-evento img {
+        height: 3.80vh;
+        width: 3vw;
+    }
+    .info_descrição2 {
+        align-items: center;
+        /* background: lightslategrey; */
+        box-shadow: 2px 2px 15px var(--cinza_sombra);
+        display: flex;
+        justify-content: space-between;
+        height: 60vh;
+        flex-direction: column;
+    }
+    .textoinfo_descrição2 {
+        /* background: blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 30vh;
+    }
+    .parte1_descrição2 {
+        align-items: center;
+        /* background: cornflowerblue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 20vh;
+        padding: 0 1em;
+    }
+    .data_descrição2 {
+        /* background: magenta; */
+        width: 25vw;
+    }
+    .data_img-descrição2 {
+        align-items: center;
+        /* background: crimson; */
+        display: flex;
+        width: 25vw;
+    }
+    .data_img-descrição2 img {
+        height: 3vh;
+        width: 2.50vw;
+    }
+    .data_img-descrição2 p {
+        font-size: 1.10em;
+    }
+    .data-horario-descrição2 {
+        /* background: chartreuse; */
+        display: flex;
+        flex-direction: column;
+        height: 6vh;
+        justify-content: center;
+        padding-right: .20em;
+    }
+    .data-horario-descrição2 p {
+        font-size: 0.75em;
+    }
+    .local_descrição2 {
+        align-items: center;
+        /* background: coral; */
+        display: flex;
+        flex-direction: column;
+        height: 15vh;
+        justify-content: center;
+        padding: 0 1em;
+    }
+    .nome_local_img-descrição2 {
+        /* background: crimson; */
+        width: 25vw;
+    }
+    .nome_local_img-descrição2 img {
+        height: 3vh;
+        width: 2.50vw;
+    }
+    .nome_local_img-descrição2 p {
+        font-size: 1.10em;
+    }
+    .endereco_local_img-descrição2 {
+        /* background: chartreuse; */
+        display: flex;
+        flex-direction: column;
+        height: 8vh;
+        justify-content: center;
+        padding-right: .20em;
+    }
+    .endereco_local_img-descrição2 p {
+        font-size: 0.70em;
+    }
+    .parte3_descrição2 iframe {
+        height: 30vh;
+        width: 30vw;
+    }
+}
+
+
+/* FIM TABLET - PERFIL ADM DESCRIÇÃO APROVAR DO EVENTO */
+
+
+/* COMEÇO MOBILE - PERFIL ADM DESCRIÇÃO APROVAR DO EVENTO */
+
+@media screen and (max-width: 375px) {
+    .secao-geral-descricao2 {
+        /* background: purple; */
+        display: block;
+        height: 218vh;
+        width: 80vw;
+    }
+    .container_descrição2 {
+        /* background: lightcoral; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 115vh;
+        margin-top: 2.55em;
+        width: 80vw;
+    }
+    .h1_descrição2 {
+        /* background: red; */
+        font-size: 1.50em;
+        width: 80vw;
+    }
+    .usuario_descrição2 {
+        /* background: blueviolet; */
+        height: 25vh;
+        width: 80vw;
+    }
+    .imagem-usuario2 {
+        /* background: red; */
+        height: 10vh;
+        width: 18vw;
+    }
+    .imagem-usuario2 img {
+        height: 10vh;
+        width: 18vw;
+    }
+    .nome-usuario-descrição2-evento {
+        /* background:yellow; */
+        width: 59vw;
+    }
+    .nome-usuario-descrição2-evento p {
+        font-size: 1em;
+    }
+    .descrição2_descrição2 {
+        /* background: lightblue; */
+        height: 150vh;
+        width: 80vw;
+    }
+    .imagem-evento2 img {
+        height: 30vh;
+        width: 80vw;
+    }
+    .descricao2-evento {
+        /* background: lightpink; */
+        width: 80vw;
+    }
+    .descricao2-evento p {
+        font-size: 0.90em;
+        padding: 0.30em 0;
+    }
+    .quadrado_forades2 {
+        /* background: lightgreen; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100vh;
+        width: 80vw;
+    }
+    .direita_topo_descrição2 {
+        align-items: center;
+        /* background: lightpink; */
+        box-shadow: 2px 2px 15px var(--cinza_sombra);
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+        padding: 1.50em 0;
+    }
+    .botao-aprovar-descricao2-evento {
+        /* background: aqua; */
+        padding-bottom: 0.20em;
+        width: 55vw;
+    }
+    .botao-aprovar-descricao2-evento a {
+        height: 5.50vh;
+        width: 55vw;
+    }
+    .botao-aprovar-descricao2-evento:hover {
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+    .botao-recusar-descricao2-evento {
+        /* background: aqua; */
+        padding-bottom: 0.20em;
+        width: 55vw;
+    }
+    .botao-recusar-descricao2-evento a {
+        height: 5.50vh;
+        width: 55vw;
+    }
+    .botao-recusar-descricao2-evento:hover {
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+    .botao-editar-descricao2-evento {
+        /* background: aqua; */
+        width: 55vw;
+    }
+    .botao-editar-descricao2-evento a {
+        height: 5.50vh;
+        width: 55vw;
+    }
+    .botao-editar-descricao2-evento:hover {
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+    .redes_descrição2 {
+        /* background: lightseagreen; */
+        width: 55vw;
+    }
+    .rede-social-compartilhar-descricao2-evento img {
+        height: 4vh;
+        width: 7vw;
+    }
+    .info_descrição2 {
+        /* background: lightslategrey; */
+        height: 60vh;
+    }
+    .textoinfo_descrição2 {
+        /* background: blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 30vh;
+        width: 70vw;
+    }
+    .parte1_descrição2 {
+        /* background: cornflowerblue; */
+        padding: 0 1em;
+        width: 70vw;
+    }
+    .data_descrição2 {
+        /* background: magenta; */
+        width: 70vw;
+    }
+    .data_img-descrição2 {
+        /* background: crimson; */
+        width: 70vw;
+    }
+    .data_img-descrição2 img {
+        height: 2.90vh;
+        width: 5vw;
+    }
+    .data-horario-descrição2 {
+        /* background: chartreuse; */
+        padding: 0 1.5em;
+    }
+    .data-horario-descrição2 p {
+        font-size: 0.85em;
+    }
+    .local_descrição2 {
+        /* background: coral; */
+        padding: 0 1em;
+    }
+    .nome_local_img-descrição2 {
+        align-items: center;
+        /* background: crimson; */
+        display: flex;
+        width: 70vw;
+    }
+    .nome_local_img-descrição2 img {
+        height: 2.90vh;
+        width: 5vw;
+    }
+    .nome_local_img-descrição2 p {
+        font-size: 1.20em;
+        padding: 0 0.30em;
+    }
+    .endereco_local_img-descrição2 {
+        /* background: chartreuse; */
+        padding: 0 1.5em;
+        width: 70vw;
+    }
+    .endereco_local_img-descrição2 p {
+        font-size: 0.85em;
+    }
+    .parte3_descrição2 iframe {
+        width: 80vw;
+    }
+}
+
+
+/* FIM MOBILE - PERFIL ADM DESCRIÇÃO APROVAR DO EVENTO */

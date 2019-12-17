@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*Configurações gerais*/
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Fim configurações gerais*/
+
+
+/*Definição de cores*/
+
+:root {
+    --cinza: #808285;
+    --verde: #11AA58;
+    --azul: #3CBACE;
+    --roxo: #94399E;
+    --rosa: #EF5BA1;
+    --vermelho: #ED312F;
+    --laranja: #F68934;
+    --amarelo: #F5C10D;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --roxo_banner: #5a155a;
+}
+
+
+/*Fim definição de cores*/
+
+
+/* Começo do Header */
+
+#cabecalho-padrao {
+    /* background: green; */
+    box-shadow: 0.05em 0.05em #cccccc;
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+}
+
+.itens-cabecalho-padrao {
+    align-items: center;
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.logo-eventshare-cabecalho-padrao img {
+    height: 5.8vh;
+    width: 13.50vw;
+}
+
+.menu-cabecalho-padrao {
+    align-items: center;
+    display: flex;
+    width: 17vw;
+    height: 15vh;
+}
+
+.menu-cabecalho-padrao ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-cabecalho-padrao ul a {
+    color: var(--preto);
+    font-size: 0.90em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-cabecalho-padrao ul a:hover {
+    color: var(--rosa);
+    border-bottom: 0.2em solid var(--rosa);
+    padding: 0.70em 0;
+}
+
+.menu {
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+#btns-menu-cabecalho-padrao {
+    background-color: var(--rosa);
+    border: none;
+    color: white;
+    font-size: 0.90em;
+    font-weight: bold;
+    padding: 1em 1.50em;
+}
+
+#btns-menu-cabecalho-padrao:hover {
+    background: var(--rosa);
+    box-shadow: 1em 1em 5em #ccc;
+    opacity: 0.70;
+    transition: 0.3s;
+}
+
+
+/* Fim do Header */
+
+
+/* Começo do Header - Tablet Media Query 768px */
+
+@media screen and (max-width: 768px) {
+    .itens-cabecalho-padrao {
+        /* background: red; */
+        width: 90vw;
+    }
+    .logo-eventshare-cabecalho-padrao img {
+        width: 23vw;
+    }
+    .menu-cabecalho-padrao {
+        /* background: yellow; */
+        width: 27vw;
+    }
+    .menu-cabecalho-padrao ul a:hover {
+        border-bottom: none;
+        color: var(--preto);
+    }
+    .menu {
+        /* background: red; */
+        width: 27vw;
+    }
+    #btns-menu-cabecalho-padrao:hover {
+        background: var(--rosa);
+        box-shadow: none;
+        opacity: 1;
+        transition: none;
+    }
+}
+
+
+/* Fim do Header - Tablet Media Query 768px */
+
+
+/* Começo do Header - Mobile Media Query 375px */
+
+@media screen and (max-width: 375px) {
+    #cabecalho-padrao {
+        align-items: center;
+        /* background: green; */
+        height: 20vh;
+        /* width: 100vw; */
+    }
+    .itens-cabecalho-padrao {
+        /* background: blue; */
+        height: 20vh;
+        width: 85vw;
+    }
+    .logo-eventshare-cabecalho-padrao img {
+        /* background: purple; */
+        height: 4.8vh;
+        width: 40vw;
+    }
+    .menu-cabecalho-padrao {
+        align-items: center;
+        /* background: yellow; */
+        height: 12vh;
+        width: 40vw;
+    }
+    .menu-cabecalho-padrao ul {
+        align-items: center;
+        /* background: greenyellow; */
+        display: flex;
+        flex-wrap: wrap;
+        height: 9vh;
+        justify-content: center;
+        width: 25vw;
+    }
+    .menu-cabecalho-padrao ul a {
+        /* background: greenyellow; */
+        display: flex;
+        justify-content: center;
+        width: 37vw;
+    }
+    .menu-cabecalho-padrao ul a:hover {
+        border-bottom: none;
+    }
+    .menu {
+        align-items: center;
+        /* background: red; */
+        display: flex;
+        flex-wrap: wrap;
+        height: 15vh;
+        justify-content: flex-end;
+        width: 40vw;
+    }
+    #btns-menu-cabecalho-padrao {
+        padding: 1em;
+    }
+}
+
+
+/* Fim do Header - Mobile Media Query 375px */
